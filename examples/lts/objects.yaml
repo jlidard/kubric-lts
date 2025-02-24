@@ -1,0 +1,42 @@
+native_shapenet_assets:
+  bench:
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [1.5, 1.5, 1.5]
+  pot: 
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [1.0, 1.0, 1.0]
+  table:
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [1.0, 1.0, 1.0]
+  chair:
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [1.0, 1.0, 1.0]
+
+
+non_native_shapenet_assets:
+  birdhouse:
+    asset_id: "02843684/a448fb21ce07c5332cba66dc6aeabcd4"
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [0.5, 0.5, 0.5]
+
+  trashcan: 
+    asset_id: "02747177/71f3b101a6d47811cb2a965e75be701c"
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [1.0, 1.0, 1.0]
+
+  suv: 
+    asset_id: "02958343/b18899d2b002ce0f80360680c1602c7d"
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [2.5, 2.5, 2.5]
+  # willow:
+  #   asset_id: "10589027d90f301837f13e87016bccd1"
+  #   location: [0.0, 0.0, 0.0]
+  #   rotation: [0.0, 0.0, 0.0]
+  #   scale: [0.5, 0.5, 0.5]

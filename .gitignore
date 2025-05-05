@@ -21,3 +21,4 @@ src/lts/assets
 src/lts/runtime
 src/lts/scenarios
 src/lts/test_jobs
+src/lts/_old

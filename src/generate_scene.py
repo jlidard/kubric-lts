@@ -100,7 +100,7 @@ all_nonnative_categories = ["birdhouse", "trashcan"]  # need to manually set ass
 
 obj = kb.FileBasedObject(
     asset_id="custom", 
-    render_filename="/kubric/examples/lts/assets/skydome/xrtlbp429gwv.obj", 
+    render_filename="/kubric/assets/skydome/xrtlbp429gwv.obj", 
     bounds=((-1, -1, -1), (1, 1, 1)),
     simulation_filename=None
 )
@@ -119,7 +119,7 @@ wall = kb.Cube(scale=(0.1, 10, 10), position=(-10, 0, 5), material=wall_material
 scene += wall
 
 # Load assets from objects.yaml
-with open("/kubric/examples/lts/objects.yaml", "r") as file: # mount path
+with open("/kubric/src/objects.yaml", "r") as file: # mount path
     assets = yaml.safe_load(file)
 
 
@@ -144,7 +144,7 @@ for frame in range(1):
             position = geometry[key]["center"]
             obj = kb.FileBasedObject(
                 asset_id="custom", 
-                render_filename="/kubric/examples/lts/assets/tree/ImageToStl.com_model.obj", 
+                render_filename="/kubric/assets/tree/ImageToStl.com_model.obj", 
                 bounds=((-1, -1, -1), (1, 1, 1)),
                 simulation_filename=None
             )
@@ -159,7 +159,7 @@ for frame in range(1):
             position = geometry[key]["center"]
             obj = kb.FileBasedObject(
                 asset_id="custom", 
-                render_filename="/kubric/examples/lts/assets/rock/qroz9y5c1c6e.obj", 
+                render_filename="/kubric/assets/rock/qroz9y5c1c6e.obj", 
                 bounds=((-1, -1, -1), (1, 1, 1)),
                 simulation_filename=None
             )
